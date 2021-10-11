@@ -120,7 +120,6 @@ body{
 .social img{
     width: 60px;
     height: 60px;
-    alig: center;
 }
 
 @media screen and (min-width: 600px)
