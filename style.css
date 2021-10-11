@@ -1,3 +1,9 @@
+
+
+
+
+
+
 ul{
     padding: 0;
 }
@@ -6,11 +12,10 @@ ul{
 header{
     display: flex;
     background-color: rgb(185, 185, 185);
-    width: 70%;
+    width: 100%;
     height: auto;
    flex-direction: column;
    text-align: center;
-    
 }
 
 
@@ -23,21 +28,23 @@ img{
 }
 section li{
     margin: 15px;
+    list-style: none;
 }
 
 section{
+    
     margin: 15px;
+      ;
 }
 
 header li{
     list-style: none;
     text-align: center;
-    
-}
+    }
 
 .boite{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 h1{
@@ -106,4 +113,16 @@ body{
 
 .h3gauche{
     color: hsl(184, 100%, 50%);
+}
+
+
+@media screen and (min-width: px)
+{
+    header{
+        width: 70%;
+    }  
+
+    .boite{
+        flex-direction: row;
+    }
 }
