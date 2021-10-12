@@ -53,6 +53,10 @@ header li{
     ;
 }
 
+h2{
+    color: cornsilk;
+}
+
 h1{
     font-size: 15px;
     color: hsl(184, 100%, 50%);
