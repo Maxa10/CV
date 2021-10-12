@@ -15,10 +15,14 @@ header .comp{
     justify-content: center;
 } 
 
-span{
+/* span{
     color: black;
-}
+} */
 
+a[href^="mailto"] {
+color: black;
+
+}
 img{
     margin-top: 10%;
     height: 130px;
