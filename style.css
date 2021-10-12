@@ -54,7 +54,7 @@ header li{
 }
 
 h2{
-    color: cyan;
+    color: rgb(184, 239, 255);
 }
 
 h1{
@@ -103,7 +103,7 @@ body{
     background-color: hsl(184, 100%, 50%);
 }
 .c100{
-    width: 30%;
+    width: 50%;
     background-color: hsl(184, 100%, 50%);
     border-radius: 5px;
 }
